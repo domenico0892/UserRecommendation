@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="org/rm3umf/eval/clusterAlgorithm/|org/rm3umf/net/|org/rm3umf/framework/buildmodel/extractor/ExtractorEntity.java|org/rm3umf/framework/importing/ResourcExtractor.java|org/rm3umf/framework/importing/SocialEnricher.java|org/rm3umf/es/ProvaElasticSearch.java|org/rm3umf/persistenza/postgreSQL/DataSourcePostgreSQLOldOld.java" including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/boilerpipe-1.1.0.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/commons-httpclient-3.0.1.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/commons-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/guava-11.0.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/jackson-all-1.9.3.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/j-calais-0.3.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/jvave.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/lucene-ant-2.9.4-dev.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/lucene-core-2.9.4-dev.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/mongo-java-driver-3.3.0 (1).jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/mysql-connector-java-5.1.18-bin.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/nekohtml.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/postgresql.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/postgresql-8.4-703.jdbc3.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/sspace-lib-1.7.1.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/textcat-1.0.1.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/twitter4j-async-2.2.5.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/twitter4j-core-2.2.5.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/twitter4j-examples-2.2.5.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/twitter4j-media-support-2.2.5.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/twitter4j-stream-2.2.5.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/xerces-2.9.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

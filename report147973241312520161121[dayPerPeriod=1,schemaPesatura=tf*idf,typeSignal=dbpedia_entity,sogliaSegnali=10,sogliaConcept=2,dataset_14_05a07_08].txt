@@ -1,0 +1,6 @@
+[2016 11 21 - 01:46, |recList|=10]
+
+RandomSimilarity : S@10.0=0.2823529411764706, 
+
+TimeWeightSimilarity : S@10.0=0.4235294117647059, 
+

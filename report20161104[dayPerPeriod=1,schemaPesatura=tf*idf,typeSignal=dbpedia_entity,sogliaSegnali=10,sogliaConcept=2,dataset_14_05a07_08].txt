@@ -1,0 +1,496 @@
+[2016 11 04 - 09:06, |recList|=10]
+
+RandomSimilarity : S@10.0=0.12941176470588237, 
+
+VECTOR_SPACE_MODEL : S@10.0=0.2, 
+
+haaSimilarity(0,0) : S@10.0=0.2, 
+
+haaSimilarity(1,1) : S@10.0=0.2, 
+
+haaSimilarity(2,2) : S@10.0=0.2, 
+
+haaSimilarity(3,3) : S@10.0=0.2, 
+
+haaSimilarity(4,4) : S@10.0=0.2, 
+
+haaSimilarity(5,5) : S@10.0=0.2, 
+
+haaSimilarity(6,6) : S@10.0=0.2, 
+
+VectorSum(lev=6) : S@10.0=0.2, 
+
+VectorSum(lev=5) : S@10.0=0.2, 
+
+VectorSum(lev=4) : S@10.0=0.2, 
+
+VectorSum(lev=3) : S@10.0=0.2, 
+
+VectorSum(lev=2) : S@10.0=0.2, 
+
+VectorSum(lev=1) : S@10.0=0.2, 
+
+VectorSum(lev=0) : S@10.0=0.2, 
+
+FunctionMultiresolution(minRes=0,maxRes=5) : S@10.0=0.2, 
+
+FunctionMultiresolution(minRes=1,maxRes=5) : S@10.0=0.2, 
+
+FunctionMultiresolution(minRes=0,maxRes=4) : S@10.0=0.2, 
+
+FunctionMultiresolution(minRes=1,maxRes=4) : S@10.0=0.2, 
+
+null : S@10.0=0.2, 
+
+VectorScalarProd_0 : S@10.0=0.2, 
+
+VectorScalarProd_1 : S@10.0=0.2, 
+
+VectorScalarProd_2 : S@10.0=0.2, 
+
+VectorScalarProd_3 : S@10.0=0.2, 
+
+VectorScalarProd_4 : S@10.0=0.2, 
+
+VectorScalarProd_5 : S@10.0=0.2, 
+
+VectorScalarProd_6 : S@10.0=0.2, 
+
+[2016 11 04 - 02:05, |recList|=10]
+
+RandomSimilarity : S@10.0=0.21176470588235294, 
+
+VECTOR_SPACE_MODEL : S@10.0=0.2, 
+
+haaSimilarity(0,0) : S@10.0=0.2, 
+
+haaSimilarity(1,1) : S@10.0=0.2, 
+
+haaSimilarity(2,2) : S@10.0=0.2, 
+
+haaSimilarity(3,3) : S@10.0=0.2, 
+
+haaSimilarity(4,4) : S@10.0=0.2, 
+
+haaSimilarity(5,5) : S@10.0=0.2, 
+
+haaSimilarity(6,6) : S@10.0=0.2, 
+
+VectorSum(lev=6) : S@10.0=0.2, 
+
+VectorSum(lev=5) : S@10.0=0.2, 
+
+VectorSum(lev=4) : S@10.0=0.2, 
+
+VectorSum(lev=3) : S@10.0=0.2, 
+
+VectorSum(lev=2) : S@10.0=0.2, 
+
+VectorSum(lev=1) : S@10.0=0.2, 
+
+VectorSum(lev=0) : S@10.0=0.2, 
+
+FunctionMultiresolution(minRes=0,maxRes=5) : S@10.0=0.2, 
+
+FunctionMultiresolution(minRes=1,maxRes=5) : S@10.0=0.2, 
+
+FunctionMultiresolution(minRes=0,maxRes=4) : S@10.0=0.2, 
+
+FunctionMultiresolution(minRes=1,maxRes=4) : S@10.0=0.2, 
+
+null : S@10.0=0.2, 
+
+VectorScalarProd_0 : S@10.0=0.2, 
+
+VectorScalarProd_1 : S@10.0=0.2, 
+
+VectorScalarProd_2 : S@10.0=0.2, 
+
+VectorScalarProd_3 : S@10.0=0.2, 
+
+VectorScalarProd_4 : S@10.0=0.2, 
+
+VectorScalarProd_5 : S@10.0=0.2, 
+
+VectorScalarProd_6 : S@10.0=0.2, 
+
+[2016 11 04 - 08:51, |recList|=10]
+
+RandomSimilarity : S@10.0=0.16470588235294117, 
+
+VECTOR_SPACE_MODEL : S@10.0=0.36470588235294116, 
+
+haaSimilarity(0,0) : S@10.0=0.3764705882352941, 
+
+haaSimilarity(1,1) : S@10.0=0.3411764705882353, 
+
+haaSimilarity(2,2) : S@10.0=0.38823529411764707, 
+
+haaSimilarity(3,3) : S@10.0=0.3764705882352941, 
+
+haaSimilarity(4,4) : S@10.0=0.3176470588235294, 
+
+haaSimilarity(5,5) : S@10.0=0.29411764705882354, 
+
+haaSimilarity(6,6) : S@10.0=0.2823529411764706, 
+
+VectorSum(lev=6) : S@10.0=0.3176470588235294, 
+
+VectorSum(lev=5) : S@10.0=0.3058823529411765, 
+
+VectorSum(lev=4) : S@10.0=0.3058823529411765, 
+
+VectorSum(lev=3) : S@10.0=0.3176470588235294, 
+
+VectorSum(lev=2) : S@10.0=0.32941176470588235, 
+
+VectorSum(lev=1) : S@10.0=0.27058823529411763, 
+
+VectorSum(lev=0) : S@10.0=0.23529411764705882, 
+
+FunctionMultiresolution(minRes=0,maxRes=5) : S@10.0=0.32941176470588235, 
+
+FunctionMultiresolution(minRes=1,maxRes=5) : S@10.0=0.3411764705882353, 
+
+FunctionMultiresolution(minRes=0,maxRes=4) : S@10.0=0.35294117647058826, 
+
+FunctionMultiresolution(minRes=1,maxRes=4) : S@10.0=0.32941176470588235, 
+
+null : S@10.0=0.36470588235294116, 
+
+VectorScalarProd_0 : S@10.0=0.27058823529411763, 
+
+VectorScalarProd_1 : S@10.0=0.25882352941176473, 
+
+VectorScalarProd_2 : S@10.0=0.29411764705882354, 
+
+VectorScalarProd_3 : S@10.0=0.3764705882352941, 
+
+VectorScalarProd_4 : S@10.0=0.36470588235294116, 
+
+VectorScalarProd_5 : S@10.0=0.3411764705882353, 
+
+VectorScalarProd_6 : S@10.0=0.36470588235294116, 
+
+[2016 11 04 - 09:06, |recList|=10]
+
+RandomSimilarity : S@10.0=0.23529411764705882, 
+
+VECTOR_SPACE_MODEL : S@10.0=0.36470588235294116, 
+
+haaSimilarity(0,0) : S@10.0=0.3764705882352941, 
+
+haaSimilarity(1,1) : S@10.0=0.3411764705882353, 
+
+haaSimilarity(2,2) : S@10.0=0.38823529411764707, 
+
+haaSimilarity(3,3) : S@10.0=0.3764705882352941, 
+
+haaSimilarity(4,4) : S@10.0=0.3176470588235294, 
+
+haaSimilarity(5,5) : S@10.0=0.29411764705882354, 
+
+[2016 11 04 - 09:07, |recList|=10]
+
+RandomSimilarity : S@10.0=0.2823529411764706, 
+
+VECTOR_SPACE_MODEL : S@10.0=0.36470588235294116, 
+
+haaSimilarity(0,0) : S@10.0=0.3764705882352941, 
+
+haaSimilarity(1,1) : S@10.0=0.3411764705882353, 
+
+haaSimilarity(2,2) : S@10.0=0.38823529411764707, 
+
+haaSimilarity(3,3) : S@10.0=0.3764705882352941, 
+
+haaSimilarity(4,4) : S@10.0=0.3176470588235294, 
+
+haaSimilarity(5,5) : S@10.0=0.29411764705882354, 
+
+haaSimilarity(6,6) : S@10.0=0.2823529411764706, 
+
+VectorSum(lev=6) : S@10.0=0.3176470588235294, 
+
+VectorSum(lev=5) : S@10.0=0.3058823529411765, 
+
+VectorSum(lev=4) : S@10.0=0.3058823529411765, 
+
+VectorSum(lev=3) : S@10.0=0.3176470588235294, 
+
+VectorSum(lev=2) : S@10.0=0.32941176470588235, 
+
+VectorSum(lev=1) : S@10.0=0.27058823529411763, 
+
+VectorSum(lev=0) : S@10.0=0.23529411764705882, 
+
+FunctionMultiresolution(minRes=0,maxRes=5) : S@10.0=0.32941176470588235, 
+
+FunctionMultiresolution(minRes=1,maxRes=5) : S@10.0=0.3411764705882353, 
+
+FunctionMultiresolution(minRes=0,maxRes=4) : S@10.0=0.35294117647058826, 
+
+FunctionMultiresolution(minRes=1,maxRes=4) : S@10.0=0.32941176470588235, 
+
+null : S@10.0=0.36470588235294116, 
+
+VectorScalarProd_0 : S@10.0=0.27058823529411763, 
+
+VectorScalarProd_1 : S@10.0=0.25882352941176473, 
+
+VectorScalarProd_2 : S@10.0=0.29411764705882354, 
+
+VectorScalarProd_3 : S@10.0=0.3764705882352941, 
+
+VectorScalarProd_4 : S@10.0=0.36470588235294116, 
+
+VectorScalarProd_5 : S@10.0=0.3411764705882353, 
+
+VectorScalarProd_6 : S@10.0=0.36470588235294116, 
+
+[2016 11 04 - 09:11, |recList|=10]
+
+RandomSimilarity : S@10.0=0.2, 
+
+VECTOR_SPACE_MODEL : S@10.0=0.36470588235294116, 
+
+haaSimilarity(0,0) : S@10.0=0.3764705882352941, 
+
+haaSimilarity(1,1) : S@10.0=0.3411764705882353, 
+
+haaSimilarity(2,2) : S@10.0=0.38823529411764707, 
+
+haaSimilarity(3,3) : S@10.0=0.3764705882352941, 
+
+haaSimilarity(4,4) : S@10.0=0.3176470588235294, 
+
+[2016 11 04 - 09:12, |recList|=10]
+
+RandomSimilarity : S@10.0=0.2235294117647059, 
+
+VECTOR_SPACE_MODEL : S@10.0=0.36470588235294116, 
+
+haaSimilarity(0,0) : S@10.0=0.3764705882352941, 
+
+haaSimilarity(1,1) : S@10.0=0.3411764705882353, 
+
+haaSimilarity(2,2) : S@10.0=0.38823529411764707, 
+
+haaSimilarity(3,3) : S@10.0=0.3764705882352941, 
+
+haaSimilarity(4,4) : S@10.0=0.3176470588235294, 
+
+haaSimilarity(5,5) : S@10.0=0.29411764705882354, 
+
+haaSimilarity(6,6) : S@10.0=0.2823529411764706, 
+
+VectorSum(lev=6) : S@10.0=0.3176470588235294, 
+
+VectorSum(lev=5) : S@10.0=0.3058823529411765, 
+
+VectorSum(lev=4) : S@10.0=0.3058823529411765, 
+
+VectorSum(lev=3) : S@10.0=0.3176470588235294, 
+
+VectorSum(lev=2) : S@10.0=0.32941176470588235, 
+
+VectorSum(lev=1) : S@10.0=0.27058823529411763, 
+
+VectorSum(lev=0) : S@10.0=0.23529411764705882, 
+
+FunctionMultiresolution(minRes=0,maxRes=5) : S@10.0=0.32941176470588235, 
+
+FunctionMultiresolution(minRes=1,maxRes=5) : S@10.0=0.3411764705882353, 
+
+FunctionMultiresolution(minRes=0,maxRes=4) : S@10.0=0.35294117647058826, 
+
+FunctionMultiresolution(minRes=1,maxRes=4) : S@10.0=0.32941176470588235, 
+
+null : S@10.0=0.36470588235294116, 
+
+VectorScalarProd_0 : S@10.0=0.27058823529411763, 
+
+VectorScalarProd_1 : S@10.0=0.25882352941176473, 
+
+VectorScalarProd_2 : S@10.0=0.29411764705882354, 
+
+VectorScalarProd_3 : S@10.0=0.3764705882352941, 
+
+VectorScalarProd_4 : S@10.0=0.36470588235294116, 
+
+VectorScalarProd_5 : S@10.0=0.3411764705882353, 
+
+VectorScalarProd_6 : S@10.0=0.36470588235294116, 
+
+[2016 11 04 - 09:15, |recList|=10]
+
+RandomSimilarity : S@10.0=0.2235294117647059, 
+
+VECTOR_SPACE_MODEL : S@10.0=0.36470588235294116, 
+
+haaSimilarity(0,0) : S@10.0=0.3764705882352941, 
+
+haaSimilarity(1,1) : S@10.0=0.3411764705882353, 
+
+haaSimilarity(2,2) : S@10.0=0.38823529411764707, 
+
+haaSimilarity(3,3) : S@10.0=0.3764705882352941, 
+
+haaSimilarity(4,4) : S@10.0=0.3176470588235294, 
+
+haaSimilarity(5,5) : S@10.0=0.29411764705882354, 
+
+haaSimilarity(6,6) : S@10.0=0.2823529411764706, 
+
+VectorSum(lev=6) : S@10.0=0.3176470588235294, 
+
+VectorSum(lev=5) : S@10.0=0.3058823529411765, 
+
+VectorSum(lev=4) : S@10.0=0.3058823529411765, 
+
+VectorSum(lev=3) : S@10.0=0.3176470588235294, 
+
+VectorSum(lev=2) : S@10.0=0.32941176470588235, 
+
+VectorSum(lev=1) : S@10.0=0.27058823529411763, 
+
+VectorSum(lev=0) : S@10.0=0.23529411764705882, 
+
+FunctionMultiresolution(minRes=0,maxRes=5) : S@10.0=0.32941176470588235, 
+
+FunctionMultiresolution(minRes=1,maxRes=5) : S@10.0=0.3411764705882353, 
+
+FunctionMultiresolution(minRes=0,maxRes=4) : S@10.0=0.35294117647058826, 
+
+FunctionMultiresolution(minRes=1,maxRes=4) : S@10.0=0.32941176470588235, 
+
+null : S@10.0=0.36470588235294116, 
+
+VectorScalarProd_0 : S@10.0=0.27058823529411763, 
+
+VectorScalarProd_1 : S@10.0=0.25882352941176473, 
+
+VectorScalarProd_2 : S@10.0=0.29411764705882354, 
+
+VectorScalarProd_3 : S@10.0=0.3764705882352941, 
+
+VectorScalarProd_4 : S@10.0=0.36470588235294116, 
+
+VectorScalarProd_5 : S@10.0=0.3411764705882353, 
+
+VectorScalarProd_6 : S@10.0=0.36470588235294116, 
+
+[2016 11 04 - 09:25, |recList|=10]1478291126472
+
+RandomSimilarity : S@10.0=0.27058823529411763, 
+
+VECTOR_SPACE_MODEL : S@10.0=0.36470588235294116, 
+
+haaSimilarity(0,0) : S@10.0=0.3764705882352941, 
+
+haaSimilarity(1,1) : S@10.0=0.3411764705882353, 
+
+haaSimilarity(2,2) : S@10.0=0.38823529411764707, 
+
+haaSimilarity(3,3) : S@10.0=0.3764705882352941, 
+
+haaSimilarity(4,4) : S@10.0=0.3176470588235294, 
+
+haaSimilarity(5,5) : S@10.0=0.29411764705882354, 
+
+haaSimilarity(6,6) : S@10.0=0.2823529411764706, 
+
+VectorSum(lev=6) : S@10.0=0.3176470588235294, 
+
+VectorSum(lev=5) : S@10.0=0.3058823529411765, 
+
+VectorSum(lev=4) : S@10.0=0.3058823529411765, 
+
+VectorSum(lev=3) : S@10.0=0.3176470588235294, 
+
+VectorSum(lev=2) : S@10.0=0.32941176470588235, 
+
+VectorSum(lev=1) : S@10.0=0.27058823529411763, 
+
+VectorSum(lev=0) : S@10.0=0.23529411764705882, 
+
+FunctionMultiresolution(minRes=0,maxRes=5) : S@10.0=0.32941176470588235, 
+
+FunctionMultiresolution(minRes=1,maxRes=5) : S@10.0=0.3411764705882353, 
+
+FunctionMultiresolution(minRes=0,maxRes=4) : S@10.0=0.35294117647058826, 
+
+FunctionMultiresolution(minRes=1,maxRes=4) : S@10.0=0.32941176470588235, 
+
+null : S@10.0=0.36470588235294116, 
+
+VectorScalarProd_0 : S@10.0=0.27058823529411763, 
+
+VectorScalarProd_1 : S@10.0=0.25882352941176473, 
+
+VectorScalarProd_2 : S@10.0=0.29411764705882354, 
+
+VectorScalarProd_3 : S@10.0=0.3764705882352941, 
+
+VectorScalarProd_4 : S@10.0=0.36470588235294116, 
+
+VectorScalarProd_5 : S@10.0=0.3411764705882353, 
+
+VectorScalarProd_6 : S@10.0=0.36470588235294116, 
+
+RandomSimilarity : S@10.0=0.18823529411764706, 
+
+VECTOR_SPACE_MODEL : S@10.0=0.36470588235294116, 
+
+haaSimilarity(0,0) : S@10.0=0.3764705882352941, 
+
+haaSimilarity(1,1) : S@10.0=0.3411764705882353, 
+
+haaSimilarity(2,2) : S@10.0=0.38823529411764707, 
+
+haaSimilarity(3,3) : S@10.0=0.3764705882352941, 
+
+haaSimilarity(4,4) : S@10.0=0.3176470588235294, 
+
+haaSimilarity(5,5) : S@10.0=0.29411764705882354, 
+
+haaSimilarity(6,6) : S@10.0=0.2823529411764706, 
+
+VectorSum(lev=6) : S@10.0=0.3176470588235294, 
+
+VectorSum(lev=5) : S@10.0=0.3058823529411765, 
+
+VectorSum(lev=4) : S@10.0=0.3058823529411765, 
+
+VectorSum(lev=3) : S@10.0=0.3176470588235294, 
+
+VectorSum(lev=2) : S@10.0=0.32941176470588235, 
+
+VectorSum(lev=1) : S@10.0=0.27058823529411763, 
+
+VectorSum(lev=0) : S@10.0=0.23529411764705882, 
+
+FunctionMultiresolution(minRes=0,maxRes=5) : S@10.0=0.32941176470588235, 
+
+FunctionMultiresolution(minRes=1,maxRes=5) : S@10.0=0.3411764705882353, 
+
+FunctionMultiresolution(minRes=0,maxRes=4) : S@10.0=0.35294117647058826, 
+
+FunctionMultiresolution(minRes=1,maxRes=4) : S@10.0=0.32941176470588235, 
+
+null : S@10.0=0.36470588235294116, 
+
+VectorScalarProd_0 : S@10.0=0.27058823529411763, 
+
+VectorScalarProd_1 : S@10.0=0.25882352941176473, 
+
+VectorScalarProd_2 : S@10.0=0.29411764705882354, 
+
+VectorScalarProd_3 : S@10.0=0.3764705882352941, 
+
+VectorScalarProd_4 : S@10.0=0.36470588235294116, 
+
+VectorScalarProd_5 : S@10.0=0.3411764705882353, 
+
+VectorScalarProd_6 : S@10.0=0.36470588235294116, 
+

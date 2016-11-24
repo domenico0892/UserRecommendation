@@ -1,0 +1,27 @@
+BACKLOG
+
+
+  
+4)IDEA: se invece di considerare i segnali per orizzontale li considero per verticale? cioe vado a costruirmi 
+il vettore di composto da un sola componente dei segnali e calcolo per ogni singola componente dei sengnali una similarità
+poi alla fine vado a sommare le similarità sui diversi periodi per ottenere una unica similarità 
+
+5)Trovate 2 misure per fare il ranking vedere all'indirizzo http://en.wikipedia.org/wiki/Correlation_and_dependence 
+Sperman e Kendall
+
+-Indicizzare anche una documento composta da tutti i tweet di un certo utente. 
+
+02-07 
+5)Implementare la misura di Kendal generalizzata trovata nell'algoritmo trovato su"What is twitter a social
+network or new media "
+
+6)provare a vedere come varia l'energia del segnale dopo la sottrazione
+
+15-05
+Sto provando il modello con i segnali di un singolo utente che hanno somma deu moduli uguale ad 1 :
+	1)D1Distance : funziona con resolution -1 sui 300 47 
+	2)Anche VectorSum funzione abbastanza non normalizzato...(ris=5 sui 300 fa 50 |ris 4 sui 300 fa 48 |ris 1 sui 300 fa 48)
+	3)Provare il ProdottoScalare
+	4)Cross energia sulle disp messe trai preferiti
+
+	

@@ -1,0 +1,42 @@
+[2016 10 11 - 09:07, |recList|=10]
+
+[2016 10 11 - 09:09, |recList|=10]
+
+[2016 10 11 - 09:10, |recList|=10]
+
+[2016 10 11 - 09:17, |recList|=10]
+
+[2016 10 11 - 09:17, |recList|=10]
+
+[2016 10 11 - 09:18, |recList|=10]
+
+haaSimilarity(0,0) : S@10.0=NaN, 
+
+haaSimilarity(1,1) : S@10.0=NaN, 
+
+haaSimilarity(2,2) : S@10.0=NaN, 
+
+haaSimilarity(3,3) : S@10.0=NaN, 
+
+haaSimilarity(4,4) : S@10.0=NaN, 
+
+haaSimilarity(5,5) : S@10.0=NaN, 
+
+haaSimilarity(6,6) : S@10.0=NaN, 
+
+[2016 10 11 - 09:18, |recList|=10]
+
+haaSimilarity(0,0) : S@10.0=NaN, 
+
+haaSimilarity(1,1) : S@10.0=NaN, 
+
+haaSimilarity(2,2) : S@10.0=NaN, 
+
+haaSimilarity(3,3) : S@10.0=NaN, 
+
+haaSimilarity(4,4) : S@10.0=NaN, 
+
+haaSimilarity(5,5) : S@10.0=NaN, 
+
+haaSimilarity(6,6) : S@10.0=NaN, 
+

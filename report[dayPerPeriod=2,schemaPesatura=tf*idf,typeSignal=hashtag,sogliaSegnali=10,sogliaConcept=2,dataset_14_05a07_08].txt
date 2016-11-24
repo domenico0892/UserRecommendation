@@ -1,0 +1,30 @@
+   JACCARD_NOWEIGHT S@R10=0.1568627450980392  
+
+   VECTOR_SPACE_MODEL S@R10=0.15294117647058825  
+
+   haaSimilarity(0,4) S@R10=0.18725490196078431  
+
+   PATTERN_SIMILARITY S@R10=0.1696078431372549  
+
+   PATTERN_SIMILARITY2 S@R10=0.1784313725490196  
+
+   VectorSum(lev=5) S@R10=0.19901960784313724  
+
+   VectorSum(lev=4) S@R10=0.19509803921568628  
+
+   VectorSum(lev=3) S@R10=0.1931372549019608  
+
+   VectorSum(lev=2) S@R10=0.19117647058823528  
+
+   VectorSum(lev=1) S@R10=0.18725490196078431  
+
+   VectorSum(lev=0) S@R10=0.18529411764705883  
+
+   FunctionMultiresolution(minRes=0,maxRes=5) S@R10=0.1892156862745098  
+
+   FunctionMultiresolution(minRes=1,maxRes=5) S@R10=0.19019607843137254  
+
+   FunctionMultiresolution(minRes=0,maxRes=4) S@R10=0.18725490196078431  
+
+   FunctionMultiresolution(minRes=1,maxRes=4) S@R10=0.18823529411764706  
+

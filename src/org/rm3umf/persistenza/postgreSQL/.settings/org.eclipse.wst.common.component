@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="mappingWsdl2Owl(In English)">
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes/" source-path="/ImportedClasses"/>
+        <dependent-module archiveName="jena.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jena/jena">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-logging-1.1.1/commons-logging-1.1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-commons-annotations.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate-commons-annotations/hibernate-commons-annotations">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="antlr-2.7.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/antlr-2.7.6/antlr-2.7.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="antlr-2.7.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/antlr-2.7.5/antlr-2.7.5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="concurrent-1.3.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/concurrent-1.3.2/concurrent-1.3.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/log4j/log4j">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="swt.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/swt/swt">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="wsdl4j.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/wsdl4j/wsdl4j">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="junit.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/junit/junit">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="wstx-asl-3.0.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/wstx-asl-3.0.0/wstx-asl-3.0.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javassist-3.4.GA.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javassist-3.4.GA/javassist-3.4.GA">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="woden-api-1.0-incubating-M7b.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/woden-api-1.0-incubating-M7b/woden-api-1.0-incubating-M7b">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jta-1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jta-1.1/jta-1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="concurrent.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/concurrent/concurrent">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="woden-ant-1.0-incubating-M7b.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/woden-ant-1.0-incubating-M7b/woden-ant-1.0-incubating-M7b">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="saxon9-jdom.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/saxon9-jdom/saxon9-jdom">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="iri.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/iri/iri">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.5.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/slf4j-api-1.5.2/slf4j-api-1.5.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-api-1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-logging-api-1.1/commons-logging-api-1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="arq-extra.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/arq-extra/arq-extra">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dom4j-1.6.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/dom4j-1.6.1/dom4j-1.6.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="wstx-asl-3.2.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/wstx-asl-3.2.0/wstx-asl-3.2.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ejb3-persistence.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ejb3-persistence/ejb3-persistence">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="lucene-core-2.4.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/lucene-core-2.4.0/lucene-core-2.4.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="saxon9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/saxon9/saxon9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="arq.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/arq/arq">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-log4j12.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/slf4j-log4j12/slf4j-log4j12">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate3/hibernate3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="woden-1.0-incubating-M7b.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/woden-1.0-incubating-M7b/woden-1.0-incubating-M7b">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-collections-3.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-collections-3.1/commons-collections-3.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-1.2.12.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/log4j-1.2.12/log4j-1.2.12">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-annotations.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate-annotations/hibernate-annotations">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axiom-impl-1.2.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axiom-impl-1.2.5/axiom-impl-1.2.5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jenatest.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jenatest/jenatest">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axiom-api-1.2.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axiom-api-1.2.5/axiom-api-1.2.5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="postgresql-8.3-604.jdbc3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/postgresql-8.3-604.jdbc3/postgresql-8.3-604.jdbc3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="json.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/json/json">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="icu4j_3_4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/icu4j_3_4/icu4j_3_4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="lucene-core-2.3.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/lucene-core-2.3.1/lucene-core-2.3.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xercesImpl.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/xercesImpl/xercesImpl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="XmlSchema-1.3.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/XmlSchema-1.3.2/XmlSchema-1.3.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jdom.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jdom/jdom">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xml-apis.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/xml-apis/xml-apis">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stax-api-1.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/stax-api-1.0/stax-api-1.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stax-api-1.0.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/stax-api-1.0.1/stax-api-1.0.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="mappingWsdl2Owl(In_English)"/>
+        <property name="java-output-path"/>
+    </wb-module>
+</project-modules>

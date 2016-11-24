@@ -1,0 +1,190 @@
+[2012 10 10 - 07:55, |recList|=5]
+
+[2012 10 10 - 07:58, |recList|=5]
+
+VECTOR_SPACE_MODEL : S@5.0=0.13907933398628794, 
+
+haaSimilarity(0,0) : S@5.0=0.15572967678746327, 
+
+haaSimilarity(0,1) : S@5.0=0.15670910871694418, 
+
+haaSimilarity(0,2) : S@5.0=0.15964740450538686, 
+
+haaSimilarity(0,3) : S@5.0=0.1616062683643487, 
+
+haaSimilarity(0,4) : S@5.0=0.15670910871694418, 
+
+haaSimilarity(0,5) : S@5.0=0.15964740450538686, 
+
+haaSimilarity(0,6) : S@5.0=0.15279138099902057, 
+
+haaSimilarity(0,6) : S@5.0=0.15279138099902057, 
+
+haaSimilarity(1,1) : S@5.0=0.15866797257590598, 
+
+haaSimilarity(2,2) : S@5.0=0.15964740450538686, 
+
+haaSimilarity(3,3) : S@5.0=0.15964740450538686, 
+
+haaSimilarity(4,4) : S@5.0=0.14691478942213515, 
+
+haaSimilarity(5,5) : S@5.0=0.14495592556317335, 
+
+haaSimilarity(6,6) : S@5.0=0.15377081292850148, 
+
+VectorScalarProd_0 : S@5.0=0.14985308521057786, 
+
+VectorScalarProd_1 : S@5.0=0.14789422135161606, 
+
+VectorScalarProd_2 : S@5.0=0.14103819784524976, 
+
+VectorScalarProd_3 : S@5.0=0.13907933398628794, 
+
+VectorScalarProd_4 : S@5.0=0.14005876591576885, 
+
+VectorScalarProd_5 : S@5.0=0.14005876591576885, 
+
+VectorScalarProd_6 : S@5.0=0.14299706170421156, 
+
+[2012 10 10 - 07:58, |recList|=10]
+
+VECTOR_SPACE_MODEL : S@10.0=0.16552399608227228, 
+
+haaSimilarity(0,0) : S@10.0=0.1890303623898139, 
+
+haaSimilarity(0,1) : S@10.0=0.1958863858961802, 
+
+haaSimilarity(0,2) : S@10.0=0.197845249755142, 
+
+haaSimilarity(0,3) : S@10.0=0.197845249755142, 
+
+haaSimilarity(0,4) : S@10.0=0.1958863858961802, 
+
+haaSimilarity(0,5) : S@10.0=0.197845249755142, 
+
+haaSimilarity(0,6) : S@10.0=0.197845249755142, 
+
+haaSimilarity(0,6) : S@10.0=0.197845249755142, 
+
+haaSimilarity(1,1) : S@10.0=0.197845249755142, 
+
+haaSimilarity(2,2) : S@10.0=0.19490695396669933, 
+
+haaSimilarity(3,3) : S@10.0=0.1929480901077375, 
+
+haaSimilarity(4,4) : S@10.0=0.1929480901077375, 
+
+haaSimilarity(5,5) : S@10.0=0.19000979431929482, 
+
+haaSimilarity(6,6) : S@10.0=0.19000979431929482, 
+
+VectorScalarProd_0 : S@10.0=0.19000979431929482, 
+
+VectorScalarProd_1 : S@10.0=0.18707149853085211, 
+
+VectorScalarProd_2 : S@10.0=0.1851126346718903, 
+
+VectorScalarProd_3 : S@10.0=0.17531831537708129, 
+
+VectorScalarProd_4 : S@10.0=0.1772771792360431, 
+
+VectorScalarProd_5 : S@10.0=0.1762977473065622, 
+
+VectorScalarProd_6 : S@10.0=0.1743388834476004, 
+
+[2012 10 10 - 07:58, |recList|=15]
+
+VECTOR_SPACE_MODEL : S@15.0=0.1890303623898139, 
+
+haaSimilarity(0,0) : S@15.0=0.21841332027424093, 
+
+haaSimilarity(0,1) : S@15.0=0.21743388834476005, 
+
+haaSimilarity(0,2) : S@15.0=0.21939275220372184, 
+
+haaSimilarity(0,3) : S@15.0=0.21939275220372184, 
+
+haaSimilarity(0,4) : S@15.0=0.22037218413320275, 
+
+haaSimilarity(0,5) : S@15.0=0.21547502448579825, 
+
+haaSimilarity(0,6) : S@15.0=0.21939275220372184, 
+
+haaSimilarity(0,6) : S@15.0=0.21939275220372184, 
+
+haaSimilarity(1,1) : S@15.0=0.21939275220372184, 
+
+haaSimilarity(2,2) : S@15.0=0.21841332027424093, 
+
+haaSimilarity(3,3) : S@15.0=0.21351616062683643, 
+
+haaSimilarity(4,4) : S@15.0=0.21351616062683643, 
+
+haaSimilarity(5,5) : S@15.0=0.21449559255631734, 
+
+haaSimilarity(6,6) : S@15.0=0.20568070519098922, 
+
+VectorScalarProd_0 : S@15.0=0.20568070519098922, 
+
+VectorScalarProd_1 : S@15.0=0.20372184133202742, 
+
+VectorScalarProd_2 : S@15.0=0.20274240940254654, 
+
+VectorScalarProd_3 : S@15.0=0.19882468168462292, 
+
+VectorScalarProd_4 : S@15.0=0.19882468168462292, 
+
+VectorScalarProd_5 : S@15.0=0.1939275220372184, 
+
+VectorScalarProd_6 : S@15.0=0.19000979431929482, 
+
+[2012 10 10 - 07:58, |recList|=20]
+
+VECTOR_SPACE_MODEL : S@20.0=0.20372184133202742, 
+
+haaSimilarity(0,0) : S@20.0=0.23604309500489715, 
+
+haaSimilarity(0,1) : S@20.0=0.23310479921645447, 
+
+haaSimilarity(0,2) : S@20.0=0.23114593535749264, 
+
+haaSimilarity(0,3) : S@20.0=0.23408423114593535, 
+
+haaSimilarity(0,4) : S@20.0=0.23212536728697356, 
+
+haaSimilarity(0,5) : S@20.0=0.22820763956904996, 
+
+haaSimilarity(0,6) : S@20.0=0.23016650342801176, 
+
+haaSimilarity(0,6) : S@20.0=0.23016650342801176, 
+
+haaSimilarity(1,1) : S@20.0=0.23310479921645447, 
+
+haaSimilarity(2,2) : S@20.0=0.23310479921645447, 
+
+haaSimilarity(3,3) : S@20.0=0.23114593535749264, 
+
+haaSimilarity(4,4) : S@20.0=0.22722820763956905, 
+
+haaSimilarity(5,5) : S@20.0=0.22233104799216455, 
+
+haaSimilarity(6,6) : S@20.0=0.21841332027424093, 
+
+VectorScalarProd_0 : S@20.0=0.21547502448579825, 
+
+VectorScalarProd_1 : S@20.0=0.21547502448579825, 
+
+VectorScalarProd_2 : S@20.0=0.21743388834476005, 
+
+VectorScalarProd_3 : S@20.0=0.21155729676787463, 
+
+VectorScalarProd_4 : S@20.0=0.20959843290891284, 
+
+VectorScalarProd_5 : S@20.0=0.21057786483839372, 
+
+VectorScalarProd_6 : S@20.0=0.20666013712047013, 
+
+[2012 10 10 - 07:58, |recList|=25]
+
+VECTOR_SPACE_MODEL : S@25.0=0.21253672869735554, 
+

@@ -1,0 +1,32 @@
+[2012 10 11 - 09:40, |recList|=10]
+
+[2012 10 11 - 09:45, |recList|=25]
+
+haaSimilarity(0,0) : S@25.0=0.24485798237022527, 
+
+haaSimilarity(1,1) : S@25.0=0.24289911851126347, 
+
+haaSimilarity(2,2) : S@25.0=0.23604309500489715, 
+
+haaSimilarity(3,3) : S@25.0=0.23702252693437806, 
+
+haaSimilarity(4,4) : S@25.0=0.23800195886385897, 
+
+haaSimilarity(5,5) : S@25.0=0.23408423114593535, 
+
+haaSimilarity(6,6) : S@25.0=0.22722820763956905, 
+
+VectorScalarProd_0 : S@25.0=0.22918707149853085, 
+
+VectorScalarProd_1 : S@25.0=0.22526934378060726, 
+
+VectorScalarProd_2 : S@25.0=0.22820763956904996, 
+
+VectorScalarProd_3 : S@25.0=0.22331047992164543, 
+
+VectorScalarProd_4 : S@25.0=0.22331047992164543, 
+
+VectorScalarProd_5 : S@25.0=0.22233104799216455, 
+
+VectorScalarProd_6 : S@25.0=0.22037218413320275, 
+

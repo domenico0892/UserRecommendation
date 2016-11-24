@@ -1,0 +1,26 @@
+[2012 09 30 - 01:10]================================================================================
+
+VectorSum(lev=3) : S@20.0=0.23054187192118228, MKTau(LuceneFriendFollower)=0.13532683215295116, MEAN_RECIPROCAL_RANK=0.10337929094532827, 
+
+VectorSum(lev=2) : S@20.0=0.22955665024630542, MKTau(LuceneFriendFollower)=0.13497480244926002, MEAN_RECIPROCAL_RANK=0.10473057249670437, 
+
+VectorSum(lev=1) : S@20.0=0.22758620689655173, MKTau(LuceneFriendFollower)=0.13469588931405974, MEAN_RECIPROCAL_RANK=0.10440335310700882, 
+
+VectorSum(lev=0) : S@20.0=0.22758620689655173, MKTau(LuceneFriendFollower)=0.1342023381249076, MEAN_RECIPROCAL_RANK=0.10359616736418277, 
+
+FunctionMultiresolution(minRes=0,maxRes=5) : S@20.0=0.23054187192118228, MKTau(LuceneFriendFollower)=0.13789376669258324, MEAN_RECIPROCAL_RANK=0.11468890536174617, 
+
+FunctionMultiresolution(minRes=1,maxRes=5) : S@20.0=0.22857142857142856, MKTau(LuceneFriendFollower)=0.1359000989408432, MEAN_RECIPROCAL_RANK=0.11586781191647819, 
+
+[2012 09 30 - 11:37]================================================================================
+
+[2012 09 30 - 12:00]
+
+[2012 09 30 - 12:03]
+
+[2012 09 30 - 12:03]
+
+null : S@10.0=0.13793103448275862, MKTau(LuceneFriendFollower)=0.08158624471885996, MEAN_RECIPROCAL_RANK=0.07382907185862853, 
+
+[2012 09 30 - 04:37]
+

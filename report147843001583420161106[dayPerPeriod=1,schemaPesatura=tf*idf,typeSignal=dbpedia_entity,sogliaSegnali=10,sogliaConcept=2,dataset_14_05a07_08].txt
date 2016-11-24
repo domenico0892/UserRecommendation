@@ -1,0 +1,58 @@
+[2016 11 06 - 12:00, |recList|=10]
+
+RandomSimilarity : S@10.0=0.2235294117647059, 
+
+VECTOR_SPACE_MODEL : S@10.0=0.32941176470588235, 
+
+haaSimilarity(0,0) : S@10.0=0.32941176470588235, 
+
+haaSimilarity(1,1) : S@10.0=0.32941176470588235, 
+
+haaSimilarity(2,2) : S@10.0=0.35294117647058826, 
+
+haaSimilarity(3,3) : S@10.0=0.35294117647058826, 
+
+haaSimilarity(4,4) : S@10.0=0.3411764705882353, 
+
+haaSimilarity(5,5) : S@10.0=0.27058823529411763, 
+
+haaSimilarity(6,6) : S@10.0=0.29411764705882354, 
+
+VectorSum(lev=6) : S@10.0=0.35294117647058826, 
+
+VectorSum(lev=5) : S@10.0=0.32941176470588235, 
+
+VectorSum(lev=4) : S@10.0=0.3058823529411765, 
+
+VectorSum(lev=3) : S@10.0=0.25882352941176473, 
+
+VectorSum(lev=2) : S@10.0=0.27058823529411763, 
+
+VectorSum(lev=1) : S@10.0=0.23529411764705882, 
+
+VectorSum(lev=0) : S@10.0=0.18823529411764706, 
+
+FunctionMultiresolution(minRes=0,maxRes=5) : S@10.0=0.3058823529411765, 
+
+FunctionMultiresolution(minRes=1,maxRes=5) : S@10.0=0.3058823529411765, 
+
+FunctionMultiresolution(minRes=0,maxRes=4) : S@10.0=0.3176470588235294, 
+
+FunctionMultiresolution(minRes=1,maxRes=4) : S@10.0=0.29411764705882354, 
+
+null : S@10.0=0.32941176470588235, 
+
+VectorScalarProd_0 : S@10.0=0.2823529411764706, 
+
+VectorScalarProd_1 : S@10.0=0.3411764705882353, 
+
+VectorScalarProd_2 : S@10.0=0.35294117647058826, 
+
+VectorScalarProd_3 : S@10.0=0.32941176470588235, 
+
+VectorScalarProd_4 : S@10.0=0.27058823529411763, 
+
+VectorScalarProd_5 : S@10.0=0.3176470588235294, 
+
+VectorScalarProd_6 : S@10.0=0.35294117647058826, 
+

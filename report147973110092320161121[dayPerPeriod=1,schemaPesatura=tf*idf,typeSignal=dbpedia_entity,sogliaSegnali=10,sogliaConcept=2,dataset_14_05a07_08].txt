@@ -1,0 +1,6 @@
+[2016 11 21 - 01:25, |recList|=10]
+
+RandomSimilarity : S@10.0=NaN, 
+
+null : S@10.0=NaN, 
+
