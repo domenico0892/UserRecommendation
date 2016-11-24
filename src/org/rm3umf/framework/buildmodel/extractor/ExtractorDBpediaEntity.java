@@ -168,4 +168,10 @@ public class ExtractorDBpediaEntity implements StrategyExtraction{
 		}
 		return types[types.length-1];
 	}
+
+	@Override
+	public List<Concept> extract(Message m) throws ExtractorException {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

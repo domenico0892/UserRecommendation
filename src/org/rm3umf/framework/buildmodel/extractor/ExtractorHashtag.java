@@ -95,7 +95,7 @@ public  class ExtractorHashtag implements StrategyExtraction{
 }
 	
 	
-	private List<Concept> getHashTag(PseudoFragment pseudo) throws ExtractorException{
+	public List<Concept> getHashTag(PseudoFragment pseudo) throws ExtractorException{
 		List<Concept> listaHashtag=new LinkedList<Concept>();
 		
 		List<Message> listMessage=pseudo.getMessages();
@@ -129,7 +129,30 @@ public  class ExtractorHashtag implements StrategyExtraction{
 	}
 	
 	
-	
+	public List<Concept> extract (Message message) throws ExtractorException {
+		List<Concept> listaHashtag = new LinkedList<Concept>();
+		Pattern pattern = Pattern.compile(regex);
+		Matcher matcher = pattern.matcher(message.getText());
+		
+		while (matcher.find()){
+			Concept c=new Concept();
+			//setto name trasformandolo in minuscolo
+			String name=matcher.group().toLowerCase();
+			//setto l'id
+			String id="";
+			try{
+			id =MD5.getInstance().hashData(name);
+			}catch(NoSuchAlgorithmException e){
+				logger.info("errore durante il calcolo dell'id del concept");
+				throw new ExtractorException(e.getMessage());
+			}
+			c.setId(id);
+			c.setNameConcept(name);
+			listaHashtag.add(c); 
+		}
+		
+		return listaHashtag;
+	}
 	
 	
 

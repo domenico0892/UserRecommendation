@@ -179,4 +179,10 @@ public class ExtractorDBpediaType implements StrategyExtraction{
 		}
 		return "";
 	}
+
+	@Override
+	public List<Concept> extract(Message m) throws ExtractorException {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

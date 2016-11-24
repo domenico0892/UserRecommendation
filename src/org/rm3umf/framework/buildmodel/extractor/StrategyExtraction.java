@@ -17,4 +17,5 @@ public interface StrategyExtraction {
 	
 	public List<SignalComponent> extract(PseudoFragment pseudo) throws ExtractorException;
 
+	public List<Concept> extract(Message m) throws ExtractorException;
 }
