@@ -4,6 +4,7 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.concurrent.ExecutionException;
 
 import org.rm3umf.domain.Period;
 import org.rm3umf.domain.PseudoFragment;
@@ -121,7 +122,12 @@ public class BuildSVOModel {
 //		List<Period> listaPeriodi = AAFacadePersistence.getInstance().periodRetriveAll();
 		//AAFacadePersistence.getInstance().signalDelete();
 		BuiltSVOSignal signalCreator = new BuiltSVOSignal(listaPeriodi.size(),SOGLIASEGNALI,1); //smoothing
-		signalCreator.buildSignal(listaUser);
+		try {
+			signalCreator.buildSignal(listaUser);
+		} catch (InterruptedException | ExecutionException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	
 		/*
 		 *===================================
