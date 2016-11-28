@@ -1,5 +1,6 @@
 package org.rm3umf.framework.buildSVOmodel;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -29,7 +30,7 @@ public class BuildSVOSignalByUser implements Callable<List<Signal>> {
 		double tot = 0.;
 		double coefNorm =0.;
 
-
+		System.out.println("costruisco i segnali di " + user.getIduser());
 		List<SignalComponent> signalCompByUser = null;
 		try {
 			signalCompByUser = AAFacadePersistence.getInstance().signaComponentRetriveByUser(user);
@@ -39,14 +40,16 @@ public class BuildSVOSignalByUser implements Callable<List<Signal>> {
 		}
 		Map<String,Signal> conceptid2signal=new HashMap<String,Signal>();
 		for(SignalComponent signalComponent:signalCompByUser){
+			
 			Concept concept =signalComponent.getConcept();
 			String idConcept=concept.getId();
 			Signal signal=conceptid2signal.get(idConcept);
-			if(signal==null){
+			if(signal==null){			
 				signal=new Signal();
 				signal.setUser(user);
 				signal.setConcept(concept);
 				signal.setSignal(new double[length]);
+				conceptid2signal.put(idConcept, signal);
 			}
 			//Setto la componente i-esima
 			signal.getSignal()[signalComponent.getPeriod().getIdPeriodo()]=signalComponent.getTfidf();
@@ -73,9 +76,14 @@ public class BuildSVOSignalByUser implements Callable<List<Signal>> {
 		//			}
 		//		}
 		//		
-
+//		Collection<Signal> l = conceptid2signal.values();
+//		for (Signal s : l) {
+//			for (double n : s.getSignal())
+//				System.err.println(n);
+//			System.out.println();
+//		}
 		return new LinkedList<Signal>(conceptid2signal.values());
-
+		
 
 	}
 }

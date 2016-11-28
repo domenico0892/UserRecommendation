@@ -4,9 +4,6 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
 
 import org.rm3umf.domain.Concept;
 import org.rm3umf.domain.Message;
@@ -19,57 +16,29 @@ import org.rm3umf.persistenza.AAFacadePersistence;
 import org.rm3umf.persistenza.PersistenceException;
 import org.rm3umf.sentiment.SentimentResolver;
 
-public class ExtractSignalComponentByPeriod implements Runnable {
-
+public class ExtractSignalComponentByPF implements Runnable {
+	
 	private StrategyExtraction strategyExtractor;
 	private SentimentResolver sentimentResolver;
 	private double alfa;
 	private double beta;
 	private double gamma;
-	private Period period;
-	private ExecutorService e;
+	private PseudoFragment pf;
 
-	public ExtractSignalComponentByPeriod (StrategyExtraction strategyExtractor, double a, double b, double c, Period p, ExecutorService e) throws Exception {
+
+	public ExtractSignalComponentByPF (StrategyExtraction strategyExtractor, double a, double b, double c, PseudoFragment pf) throws Exception {
 		this.strategyExtractor=strategyExtractor;
 		this.sentimentResolver = new SentimentResolver("en");
 		this.alfa = a;
 		this.beta = b;
 		this.gamma = c;
-		this.period = p;
-		this.e = e;
+		this.pf = pf;
 	}
-
+	
+	
+	
 	public void run () {
-
 		
-		List<PseudoFragment> listaPseudo;
-		try {
-			listaPseudo = AAFacadePersistence.getInstance().pseudoDocumentGetByPeriod(period);
-			for (PseudoFragment pf : listaPseudo) {
-				try {
-					e.submit(new ExtractSignalComponentByPF(strategyExtractor, alfa, beta, gamma, pf));
-//					System.err.println("Submitted nuovo thread signal component" + Math.random());
-				} catch (Exception e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-			}
-//			try {
-//				e.awaitTermination(10, TimeUnit.DAYS);
-//			} catch (InterruptedException e) {
-//				// TODO Auto-generated catch block
-//				e.printStackTrace();
-//			}
-		} catch (PersistenceException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
-
-	}
-
-	public void extractSignalComponentByPseudoFragment (PseudoFragment pf) {
-
 		Map<Concept, List<Message>> concept2Messages = null;
 		try {
 			concept2Messages = concept2Messages(pf);
@@ -83,7 +52,7 @@ public class ExtractSignalComponentByPeriod implements Runnable {
 
 		double s, v, o, svo;
 		int p, neg, neu;
-
+//		System.err.println("fuori foreach component");
 		for (Concept c : concept2Messages.keySet()) {
 			v = (double) concept2Messages.get(c).size() / pf.getMessages().size();;
 			p = getPositiveMessages(message2sentiment);
@@ -97,7 +66,9 @@ public class ExtractSignalComponentByPeriod implements Runnable {
 			sigComp.setPeriod(pf.getPeriod());
 			sigComp.setUser(pf.getUser());
 			sigComp.setTfidf(svo);
+//			System.err.println("Svo: " + svo);
 			try {
+//				System.err.println("Salvo signal component");
 				AAFacadePersistence.getInstance().signalComponentSave(sigComp);
 			} catch (PersistenceException e) {
 				// TODO Auto-generated catch block
@@ -164,7 +135,3 @@ public class ExtractSignalComponentByPeriod implements Runnable {
 	}
 
 }
-
-
-
-

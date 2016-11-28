@@ -69,7 +69,7 @@ public class Startup {
 		
 		listaFunzioniSimilarità.add(new RandomSimilarity());
 		listaFunzioniSimilarità.add(new TimeWeightSimilarity(-200));
-//		listaFunzioniSimilarità.add( new VectorSpaceModel());
+		listaFunzioniSimilarità.add( new VectorSpaceModel());
 
 //		listaFunzioniSimilarità.add( new HaarSimilarity(0,0));
 //		listaFunzioniSimilarità.add( new HaarSimilarity(0,1));
@@ -80,17 +80,17 @@ public class Startup {
 //		listaFunzioniSimilarità.add( new HaarSimilarity(0,6));
 //		listaFunzioniSimilarità.add( new HaarSimilarity(0,6));
 
-/*	    listaFunzioniSimilarità.add( new HaarSimilarity(0,0));
+	    listaFunzioniSimilarità.add( new HaarSimilarity(0,0));
 		listaFunzioniSimilarità.add( new HaarSimilarity(1,1));
 		listaFunzioniSimilarità.add( new HaarSimilarity(2,2));
 		listaFunzioniSimilarità.add( new HaarSimilarity(3,3));
 		listaFunzioniSimilarità.add( new HaarSimilarity(4,4));
 		listaFunzioniSimilarità.add( new HaarSimilarity(5,5));
 		listaFunzioniSimilarità.add( new HaarSimilarity(6,6));
-		
-		
-		
-		
+//		
+//		
+//		
+//		
 		listaFunzioniSimilarità.add(new VectorSum(6));
 		listaFunzioniSimilarità.add(new VectorSum(5));
 		listaFunzioniSimilarità.add(new VectorSum(4));
@@ -102,9 +102,9 @@ public class Startup {
 		listaFunzioniSimilarità.add(new FunctionMultiresolution(1,5));
 		listaFunzioniSimilarità.add(new FunctionMultiresolution(0,4));
 		listaFunzioniSimilarità.add(new FunctionMultiresolution(1,4));
-		
-		
-		
+//		
+//		
+//		
 		listaFunzioniSimilarità.add(new TemporalCosineSimilarity());
 		listaFunzioniSimilarità.add(new VectorScalarProd(0));
 		listaFunzioniSimilarità.add(new VectorScalarProd(1));

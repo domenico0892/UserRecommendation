@@ -5,6 +5,8 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 import org.rm3umf.domain.Period;
 import org.rm3umf.domain.PseudoFragment;
@@ -54,13 +56,14 @@ public class BuildSVOModel {
 	//VARIABILI ISTANZA
 	private List<User> listaUser;
 	private BuiltSVOSignalComponent signalComponetCreator;
-	
+	private ExecutorService e;
 	
 	public BuildSVOModel() throws Exception{
 		//
 		this.listaUser=AAFacadePersistence.getInstance().userRetriveAll();
 		//
 		this.signalComponetCreator=new BuiltSVOSignalComponent(new ExtractorHashtag(), 0.3, 0.6, 0.1);
+		this.e = Executors.newCachedThreadPool();
 	
 	}
 	
@@ -82,6 +85,8 @@ public class BuildSVOModel {
 		 * */
 		
 		//FILTRO PERIODI
+		
+		//AAFacadePersistence.getInstance().deleteForBuildModel();
 		FactoryPeriod factrotyPeriod=new FactoryPeriod();
 		
 		//recupero la massima e minima data di pubblicazione dei tweets
@@ -99,7 +104,7 @@ public class BuildSVOModel {
 //		 * */
 //		
 		//Crea le signal component relativi a tutti i periodi
-		signalComponetCreator.createSignalComponent(listaPeriodi);
+//		signalComponetCreator.createSignalComponent(listaPeriodi, e);
 //		
 		/*
 		 *=============================================

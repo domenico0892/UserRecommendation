@@ -160,7 +160,7 @@ public class SignalComponentDAOpostgreSQL implements SignalComponentDAO{
 		ResultSet result = null;
 		try {
 			connection = ds.getConnection();
-			String retrieve = "select idf,tf,value,periodid,conceptid from signalcomponent where userid=?";
+			String retrieve = "select idf,tf,value,periodid,conceptid,tfidf from signalcomponent where userid=?";
 
 			statement = connection.prepareStatement(retrieve);
 			statement.setLong(1, userid);
@@ -170,7 +170,7 @@ public class SignalComponentDAOpostgreSQL implements SignalComponentDAO{
 				signalComponent.setIdf(result.getFloat(1));
 				signalComponent.setTf(result.getFloat(2));
 				signalComponent.setOccorence(result.getInt(3));
-				
+				signalComponent.setTfidf(result.getDouble(6));
 				//Periodo
 				int idPeriod=result.getInt(4);
 				Period period=new PeriodProxy();

@@ -1,0 +1,12 @@
+[2016 11 25 - 04:53, |recList|=10]
+
+RandomSimilarity : S@10.0=0.13846153846153847, 
+
+TimeWeightSimilarity : S@10.0=0.4461538461538462, 
+
+VECTOR_SPACE_MODEL : S@10.0=0.46153846153846156, 
+
+haaSimilarity(0,2) : S@10.0=0.4461538461538462, 
+
+VectorSum(lev=2) : S@10.0=0.4461538461538462, 
+

@@ -47,28 +47,28 @@ public class BuiltSVOSignalComponent {
 	 * @throws ExtractorException
 	 */
 
-	public void createSignalComponent(List<Period> listaPeriodi) throws PersistenceException, ExtractorException{/*
+	public void createSignalComponent(List<Period> listaPeriodi, ExecutorService e) throws PersistenceException, ExtractorException{/*
 	 *Creo i signal componente relativi relative ai periodi 
 	 */
-		ExecutorService es = Executors.newCachedThreadPool();
+		
 		for(Period period :listaPeriodi.subList(0, listaPeriodi.size())){
-			System.out.println("Costruisco i SignalComponent per il periodo "+period);
+//			System.out.println("Costruisco i SignalComponent per il periodo "+period);
 			//salvo il periodo
 			AAFacadePersistence.getInstance().periodSave(period);
 			//il periodo crea tutte le signal component prensenti in esso
 			try {
-				es.submit(new ExtractSignalComponentByPeriod(strategyExtractor, alfa, beta, gamma, period));
-			} catch (Exception e) {
+				e.submit(new ExtractSignalComponentByPeriod(strategyExtractor, alfa, beta, gamma, period, e));
+			} catch (Exception ex) {
 				// TODO Auto-generated catch block
-				e.printStackTrace();
+				ex.printStackTrace();
 			}
 			
 		}
 		try {
-			es.awaitTermination(10, TimeUnit.DAYS);
-		} catch (InterruptedException e) {
+			e.awaitTermination(10, TimeUnit.DAYS);
+		} catch (InterruptedException ex) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			ex.printStackTrace();
 		}
 	}
 
