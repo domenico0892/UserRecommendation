@@ -7,6 +7,7 @@ import java.util.Set;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 import org.rm3umf.domain.Period;
 import org.rm3umf.domain.PseudoFragment;
@@ -45,7 +46,7 @@ public class BuildSVOModel {
 	/*PARAMETRI*/
 	
 	//giorni con cui si costruiscono i segnali
-	private final int DAYPERIOD=28;  //giorni del periodo 
+	private final int DAYPERIOD=14;  //giorni del periodo 
 	
 	//rappresenta il numero minimo di segnali che rendono un profilo utente valido	
 	private int SOGLIASEGNALI = 10;  //al di sotto di questa soglia di segnali il profilo utente viene scartato
@@ -59,12 +60,13 @@ public class BuildSVOModel {
 	private ExecutorService e;
 	
 	public BuildSVOModel() throws Exception{
+		System.out.println("Dati concorrenza: "+Runtime.getRuntime().availableProcessors()+" processori.");
 		//
 		this.listaUser=AAFacadePersistence.getInstance().userRetriveAll();
 		//
 		this.signalComponetCreator=new BuiltSVOSignalComponent(new ExtractorHashtag(), 0.3, 0.6, 0.1);
-		this.e = Executors.newCachedThreadPool();
-	
+//		this.e = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
+		this.e = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
 	}
 	
 	public void start () throws  PersistenceException, ExtractorException, BuildModelException{
@@ -104,8 +106,13 @@ public class BuildSVOModel {
 //		 * */
 //		
 		//Crea le signal component relativi a tutti i periodi
-//		signalComponetCreator.createSignalComponent(listaPeriodi, e);
-//		
+		signalComponetCreator.createSignalComponent(listaPeriodi, e);
+		try {
+			this.e.awaitTermination(10, TimeUnit.DAYS);
+		} catch (InterruptedException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 		/*
 		 *=============================================
 		 * FASE 1.9 :  Eliminiano dal sistema le signal component inrrilevanti

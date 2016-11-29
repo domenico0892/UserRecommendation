@@ -56,20 +56,24 @@ public class BuiltSVOSignalComponent {
 			//salvo il periodo
 			AAFacadePersistence.getInstance().periodSave(period);
 			//il periodo crea tutte le signal component prensenti in esso
+			ExtractSignalComponentByPeriod esc;
 			try {
 				e.submit(new ExtractSignalComponentByPeriod(strategyExtractor, alfa, beta, gamma, period, e));
+//				esc = new ExtractSignalComponentByPeriod(strategyExtractor, alfa, beta, gamma, period, e);
+//				esc.run();
+//				System.err.println("1");
 			} catch (Exception ex) {
 				// TODO Auto-generated catch block
 				ex.printStackTrace();
 			}
 			
 		}
-		try {
-			e.awaitTermination(10, TimeUnit.DAYS);
-		} catch (InterruptedException ex) {
-			// TODO Auto-generated catch block
-			ex.printStackTrace();
-		}
+//		try {
+//			e.awaitTermination(10, TimeUnit.DAYS);
+//		} catch (InterruptedException ex) {
+//			// TODO Auto-generated catch block
+//			ex.printStackTrace();
+//		}
 	}
 
 

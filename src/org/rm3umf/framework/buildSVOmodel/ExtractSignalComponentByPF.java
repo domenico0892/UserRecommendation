@@ -38,7 +38,7 @@ public class ExtractSignalComponentByPF implements Runnable {
 	
 	
 	public void run () {
-		
+//		System.err.println("3");
 		Map<Concept, List<Message>> concept2Messages = null;
 		try {
 			concept2Messages = concept2Messages(pf);
@@ -54,6 +54,7 @@ public class ExtractSignalComponentByPF implements Runnable {
 		int p, neg, neu;
 //		System.err.println("fuori foreach component");
 		for (Concept c : concept2Messages.keySet()) {
+//			System.err.println("4" + c.getId());
 			v = (double) concept2Messages.get(c).size() / pf.getMessages().size();;
 			p = getPositiveMessages(message2sentiment);
 			neg = getNegativeMessages(message2sentiment);
@@ -70,6 +71,7 @@ public class ExtractSignalComponentByPF implements Runnable {
 			try {
 //				System.err.println("Salvo signal component");
 				AAFacadePersistence.getInstance().signalComponentSave(sigComp);
+//				System.err.println("5");
 			} catch (PersistenceException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

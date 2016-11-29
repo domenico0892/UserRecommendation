@@ -27,7 +27,7 @@ public class ExtractSignalComponentByPeriod implements Runnable {
 	private double beta;
 	private double gamma;
 	private Period period;
-	private ExecutorService e;
+	private ExecutorService exs;
 
 	public ExtractSignalComponentByPeriod (StrategyExtraction strategyExtractor, double a, double b, double c, Period p, ExecutorService e) throws Exception {
 		this.strategyExtractor=strategyExtractor;
@@ -36,7 +36,7 @@ public class ExtractSignalComponentByPeriod implements Runnable {
 		this.beta = b;
 		this.gamma = c;
 		this.period = p;
-		this.e = e;
+		this.exs = e;
 	}
 
 	public void run () {
@@ -45,17 +45,23 @@ public class ExtractSignalComponentByPeriod implements Runnable {
 		List<PseudoFragment> listaPseudo;
 		try {
 			listaPseudo = AAFacadePersistence.getInstance().pseudoDocumentGetByPeriod(period);
+			
 			for (PseudoFragment pf : listaPseudo) {
 				try {
-					e.submit(new ExtractSignalComponentByPF(strategyExtractor, alfa, beta, gamma, pf));
+//					exs.submit(new ExtractSignalComponentByPF(strategyExtractor, alfa, beta, gamma, pf));
+					System.out.println("Analyzing pf: " + pf.getPeriod().getIdPeriodo() + " " + pf.getUser().getIduser());
 //					System.err.println("Submitted nuovo thread signal component" + Math.random());
+//					System.err.println(this.exs.isShutdown());
+					extractSignalComponentByPseudoFragment(pf);
+//					AAFacadePersistence.getInstance().signalComponentSave(new SignalComponent(new Concept(), pf.getUser(), pf.getPeriod()));
+					
 				} catch (Exception e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
 //			try {
-//				e.awaitTermination(10, TimeUnit.DAYS);
+//				exs.awaitTermination(10, TimeUnit.DAYS);
 //			} catch (InterruptedException e) {
 //				// TODO Auto-generated catch block
 //				e.printStackTrace();
@@ -85,6 +91,7 @@ public class ExtractSignalComponentByPeriod implements Runnable {
 		int p, neg, neu;
 
 		for (Concept c : concept2Messages.keySet()) {
+			System.out.println("Analyzing concept: " + pf.getPeriod().getIdPeriodo() + " " + pf.getUser().getIduser() + c.getNameConcept());
 			v = (double) concept2Messages.get(c).size() / pf.getMessages().size();;
 			p = getPositiveMessages(message2sentiment);
 			neg = getNegativeMessages(message2sentiment);
@@ -98,7 +105,9 @@ public class ExtractSignalComponentByPeriod implements Runnable {
 			sigComp.setUser(pf.getUser());
 			sigComp.setTfidf(svo);
 			try {
+				System.out.println("Saving concept: " + pf.getPeriod().getIdPeriodo() + " " + pf.getUser().getIduser() + c.getNameConcept());
 				AAFacadePersistence.getInstance().signalComponentSave(sigComp);
+				System.out.println("Saved concept: " + pf.getPeriod().getIdPeriodo() + " " + pf.getUser().getIduser() + c.getNameConcept());
 			} catch (PersistenceException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

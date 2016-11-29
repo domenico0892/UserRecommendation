@@ -140,7 +140,7 @@ public class ConceptDAOpostgreSQL implements ConceptDAO{
 		DataSource ds = DataSourcePostgreSQL.getInstance();
 		Connection connection = ds.getConnection();
 		if (this.doRetrieveById(concept.getId()) !=  null) {
-			this.doUpdate(concept, connection); //incrementa il references
+			//this.doUpdate(concept, connection); //incrementa il references
 		}
 		else
 			this.doInsert(concept, connection);

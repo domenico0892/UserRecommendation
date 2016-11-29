@@ -23,7 +23,9 @@ public class Concept {
 	}
 
 	public Concept(){
-		
+		id = "123";
+		nameConcept = "abc";
+		type =" hashta";
 	}
 	
 	public Concept(String nameConcept){
