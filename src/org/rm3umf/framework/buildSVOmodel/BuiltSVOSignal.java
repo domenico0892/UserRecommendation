@@ -49,17 +49,18 @@ public class BuiltSVOSignal {
 
 		//AAFacadePersistence.getInstance().signalDelete();
 
-		ExecutorService es = Executors.newCachedThreadPool();
+		ExecutorService es = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
 		List<Future<List<Signal>>> signals = new LinkedList<>();
-	
-		for(User user :listaUser){
+
+		for(User user :listaUser) 
 			signals.add(es.submit(new BuildSVOSignalByUser(user, this.lenghtSignal)));
+
 		for (Future<List<Signal>> sig : signals) {
-				if (sig.get().size() > SOGLIASEGNALI) {
-					for (Signal s : sig.get()) 
-						AAFacadePersistence.getInstance().signalSave(s);
+			if (sig.get().size() > SOGLIASEGNALI) {
+				for (Signal s : sig.get()) {
+					AAFacadePersistence.getInstance().signalSave(s);
 				}
-			}
-		}
+			}}
 	}
+
 }

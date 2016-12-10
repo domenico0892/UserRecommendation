@@ -25,6 +25,7 @@ public class BuildSVOSignalByUser implements Callable<List<Signal>> {
 
 	@Override
 	public List<Signal> call() {
+//		SyncCount.getInstance().inc();
 		double maxValue=0.;
 		double tot = 0.;
 		double coefNorm =0.;
@@ -32,14 +33,18 @@ public class BuildSVOSignalByUser implements Callable<List<Signal>> {
 
 		List<SignalComponent> signalCompByUser = null;
 		try {
+			
 			signalCompByUser = AAFacadePersistence.getInstance().signaComponentRetriveByUser(user);
+			System.out.println("Analizzo user: "+ this.user.getIduser());
 		} catch (PersistenceException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		Map<String,Signal> conceptid2signal=new HashMap<String,Signal>();
 		for(SignalComponent signalComponent:signalCompByUser){
+			
 			Concept concept =signalComponent.getConcept();
+			
 			String idConcept=concept.getId();
 			Signal signal=conceptid2signal.get(idConcept);
 			if(signal==null){
@@ -47,6 +52,7 @@ public class BuildSVOSignalByUser implements Callable<List<Signal>> {
 				signal.setUser(user);
 				signal.setConcept(concept);
 				signal.setSignal(new double[length]);
+				conceptid2signal.put(idConcept, signal);
 			}
 			//Setto la componente i-esima
 			signal.getSignal()[signalComponent.getPeriod().getIdPeriodo()]=signalComponent.getTfidf();
@@ -73,7 +79,8 @@ public class BuildSVOSignalByUser implements Callable<List<Signal>> {
 		//			}
 		//		}
 		//		
-
+		
+		
 		return new LinkedList<Signal>(conceptid2signal.values());
 
 

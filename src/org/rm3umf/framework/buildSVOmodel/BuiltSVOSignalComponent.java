@@ -50,7 +50,7 @@ public class BuiltSVOSignalComponent {
 	public void createSignalComponent(List<Period> listaPeriodi) throws PersistenceException, ExtractorException{/*
 	 *Creo i signal componente relativi relative ai periodi 
 	 */
-		ExecutorService es = Executors.newCachedThreadPool();
+		ExecutorService es = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
 		for(Period period :listaPeriodi.subList(0, listaPeriodi.size())){
 			System.out.println("Costruisco i SignalComponent per il periodo "+period);
 			//salvo il periodo

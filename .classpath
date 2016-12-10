@@ -33,6 +33,8 @@
 	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/twitter4j-media-support-2.2.5.jar"/>
 	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/twitter4j-stream-2.2.5.jar"/>
 	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/xerces-2.9.1.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/commons-dbcp2-2.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/ai-lab/Scrivania/workspace/UserRecommendation/lib/commons-pool2-2.4.2.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -43,7 +43,7 @@ public class BuildSVOModel {
 	/*PARAMETRI*/
 	
 	//giorni con cui si costruiscono i segnali
-	private final int DAYPERIOD=28;  //giorni del periodo 
+	private final int DAYPERIOD=14;  //giorni del periodo 
 	
 	//rappresenta il numero minimo di segnali che rendono un profilo utente valido	
 	private int SOGLIASEGNALI = 10;  //al di sotto di questa soglia di segnali il profilo utente viene scartato
@@ -99,7 +99,7 @@ public class BuildSVOModel {
 //		 * */
 //		
 		//Crea le signal component relativi a tutti i periodi
-		signalComponetCreator.createSignalComponent(listaPeriodi);
+//		signalComponetCreator.createSignalComponent(listaPeriodi);
 //		
 		/*
 		 *=============================================
